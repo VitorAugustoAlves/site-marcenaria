@@ -72,6 +72,43 @@ input, select, textarea {
 	appearance: none;
 }
 
+.card-servico {
+	background: rgba(255, 255, 255, 0.03);
+	border: 1px solid rgba(255, 255, 255, 0.05);
+	border-radius: 10px;
+	padding: 1.5em;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.card-servico:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.card-servico .image.fit img {
+	border-radius: 8px;
+}
+
+.card-servico h3 {
+	text-align: center;
+	margin-top: 1em;
+	font-size: 1.3em;
+}
+
+.card-servico ul.actions {
+	margin-top: auto;
+	justify-content: center;
+}
+
+.card-servico p {
+	text-align: center;
+}
+
 /* Basic */
 
 	html {
