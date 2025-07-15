@@ -22,7 +22,7 @@
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
-			}, 100);
+			}, 20);
 		});
 
 	// Touch mode.
@@ -31,7 +31,7 @@
 
 	// Scrolly links.
 		$('.scrolly').scrolly({
-			speed: 2000
+			speed: 750
 		});
 
 	// Dropdowns.
@@ -61,7 +61,7 @@
 			)
 				.appendTo($body)
 				.panel({
-					delay: 500,
+					delay: 10,
 					hideOnClick: true,
 					hideOnSwipe: true,
 					resetScroll: true,
